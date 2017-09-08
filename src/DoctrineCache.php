@@ -35,8 +35,10 @@ namespace abexto\logeia\yii\cache;
  * Description of DoctrineCache
  *
  * @author Andreas Prucha, Abexto - Helicon Software Development
+ * @todo Implement
+ * 
  */
-class DoctrineCache
+class DoctrineCache extends \yii\caching\Cache
 {
     //put your code here
 }
