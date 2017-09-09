@@ -12,5 +12,11 @@
     ],
     "require": {
       "doctrine/cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "abexto\\logeia\\yii\\cache\\": "src/",
+            "abexto\\logeia\\yii\\cache\\tests": "tests/"
+        }
     }
 }
