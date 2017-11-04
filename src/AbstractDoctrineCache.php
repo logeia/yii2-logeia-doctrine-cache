@@ -38,7 +38,7 @@ namespace abexto\logeia\yii\cache;
  * @todo Implement
  * 
  */
-class DoctrineCache extends \yii\caching\Cache
+class AbstractDoctrineCache extends abexto\logeia\yii\doctrine\common\base\AbstractDoctrineWrapperComponent
 {
     //put your code here
 }

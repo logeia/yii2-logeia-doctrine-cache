@@ -1,4 +1,27 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/logeia/yii2-logeia-phpunit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/logeia/yii2-logeia-common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/logeia/yii2-logeia-doctrine-common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/logeia/yii2-logeia-doctrine-dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/logeia/yii2-logeia-doctrine-orm"
+        }
+    ],
+  "minimum-stability": "dev",
   "name": "abexto/yii2-logeia-doctrine-cache",
   "keywords": ["yii2"],
   "type": "yii2-extension",  
@@ -11,7 +34,8 @@
         }
     ],
     "require": {
-      "doctrine/cache": "*"
+      "doctrine/cache": "*",
+      "abexto/yii2-logeia-doctrine-common": "dev-master"
     },
     "autoload": {
         "psr-4": {
